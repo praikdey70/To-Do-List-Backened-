@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+body{
+    padding: 50px;
+}
+.main-container{
+    border: 1px solid;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.inner-top-container{
+    border: 1px solid;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.input{
+    height: 30px;
+    padding-top: 10px;
+    
+}
+.inp{
+    border: 1px solid;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn{
+    width: 30%;
+    padding: 3px;
+    border-radius: 5px ;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inner-bottom-container{
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid;
+    max-height: 200px; /* Set a maximum height for the container */
+    overflow-y: auto;
+}
+
+.taskList{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.taskItem {
+    display: inline-block;
+    vertical-align: top; /* Aligns list items vertically to the top */
+
+}
+
+.taskContent {
+    width: 50%;
+    margin: auto;
+}
+
+.btnGroups {
+    display: inline-block;
+    vertical-align: top; /* Aligns buttons container vertically to the top */
+    padding: 5px; /* Adjust padding as needed */
+}
+
+.upBtn,
+.downBtn,
+.deleteBtn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0.8px solid rgb(130, 130, 130);
+}
+
+.upBtn:hover{
+    background-color:orangered;
+    color: white;
+    border: none;
+}
+.downBtn:hover{
+    background-color:orangered;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+      .taskItem {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>TODO LIST</h1>
+
+      <!-- Action define karti hai request kispar jayegi -->
+      <!-- method -> POST/GET/PUT/DELETE -->
+      <!-- Default Method: GET -->
+
+      <div class="inner-top-container">
+        <form action="/todos" method="POST">
+            <div class="input">
+                <input class="inp" type="text" name="newTask" placeholder="What would you like to do?" />
+            </div>
+            
+            <button class="btn" type="submit">Add</button>
+        </form>
+      </div>
+      <div class="inner-bottom-container">
+        <ul class="taskList">
+            <!-- <li class="taskItem">
+                <div class="taskContent">Cricket</div>
+                <div class="btnGroups">
+                    <button class="upBtn">Up</button>
+                    <button class="downBtn">do</button>
+                    <button class="delete">X</button>
+                </div>
+            </li> -->
+          </ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
